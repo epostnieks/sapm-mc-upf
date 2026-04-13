@@ -1,0 +1,141 @@
+{
+  "paper_id": "upf",
+  "config_file": "pipeline/mc_configs/upf.json",
+  "seed": 42,
+  "n_draws": 100000,
+  "n_channels": 6,
+  "correlation_rho": 0.3,
+  "private_payoff_B": 293.0,
+  "beta_w": {
+    "median": 6.24,
+    "mean": 6.29,
+    "std": 0.74,
+    "p1": 4.77,
+    "p5": 5.16,
+    "p95": 7.58,
+    "p99": 8.22,
+    "ci_90": [
+      5.2,
+      7.6
+    ],
+    "ci_99": [
+      4.8,
+      8.2
+    ],
+    "p_below_1": 0.0,
+    "p_below_1_pct": "0.0000%"
+  },
+  "impossibility_floor": {
+    "floor_value": 3.7,
+    "p_below_floor": 0.0,
+    "p_below_floor_pct": "0.0000%"
+  },
+  "welfare_cost": {
+    "total_median_B": 1829.0,
+    "total_mean_B": 1842.5,
+    "total_p5_B": 1511.5,
+    "total_p95_B": 2221.3
+  },
+  "pi_sa": {
+    "median_B": 1536.0,
+    "mean_B": 1549.5,
+    "p5_B": 1218.5,
+    "p95_B": 1928.3
+  },
+  "channel_statistics": {
+    "C1_metabolic_disease": {
+      "median": 1099.3,
+      "mean": 1106.3,
+      "p5": 915.5,
+      "p95": 1319.1,
+      "std": 123.1
+    },
+    "C2_addiction_behavioral": {
+      "median": 179.9,
+      "mean": 186.6,
+      "p5": 115.5,
+      "p95": 280.9,
+      "std": 51.3
+    },
+    "C3_agricultural_distortion": {
+      "median": 219.9,
+      "mean": 223.9,
+      "p5": 161.4,
+      "p95": 299.9,
+      "std": 42.6
+    },
+    "C4_environmental_degradation": {
+      "median": 140.1,
+      "mean": 145.4,
+      "p5": 89.0,
+      "p95": 219.7,
+      "std": 40.8
+    },
+    "C5_governance_capture": {
+      "median": 69.8,
+      "mean": 73.7,
+      "p5": 40.9,
+      "p95": 119.5,
+      "std": 24.8
+    },
+    "C6_intergenerational_developmental": {
+      "median": 99.9,
+      "mean": 106.5,
+      "p5": 55.6,
+      "p95": 180.0,
+      "std": 39.3
+    }
+  },
+  "sensitivity_matrix": [
+    {
+      "vsl_multiplier": 0.5,
+      "values": {
+        "dc_0pct": 4.3,
+        "dc_10pct": 3.87,
+        "dc_20pct": 3.44,
+        "dc_30pct": 3.01,
+        "dc_40pct": 2.58
+      }
+    },
+    {
+      "vsl_multiplier": 0.75,
+      "values": {
+        "dc_0pct": 5.24,
+        "dc_10pct": 4.72,
+        "dc_20pct": 4.19,
+        "dc_30pct": 3.67,
+        "dc_40pct": 3.14
+      }
+    },
+    {
+      "vsl_multiplier": 1.0,
+      "values": {
+        "dc_0pct": 6.18,
+        "dc_10pct": 5.56,
+        "dc_20pct": 4.94,
+        "dc_30pct": 4.32,
+        "dc_40pct": 3.71
+      }
+    },
+    {
+      "vsl_multiplier": 1.25,
+      "values": {
+        "dc_0pct": 7.12,
+        "dc_10pct": 6.4,
+        "dc_20pct": 5.69,
+        "dc_30pct": 4.98,
+        "dc_40pct": 4.27
+      }
+    },
+    {
+      "vsl_multiplier": 1.5,
+      "values": {
+        "dc_0pct": 8.05,
+        "dc_10pct": 7.25,
+        "dc_20pct": 6.44,
+        "dc_30pct": 5.64,
+        "dc_40pct": 4.83
+      }
+    }
+  ]
+}
